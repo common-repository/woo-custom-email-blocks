@@ -1,0 +1,6 @@
+**1.0.1 - 2019.04.03**
+- Updated: Make admin notices dismissible
+
+**1.0.0 - 2019..**
+- First release
+

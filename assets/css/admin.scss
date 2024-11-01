@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?k7zmyc');
+  src: url('fonts/icomoon.eot?k7zmyc#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?k7zmyc') format('truetype'),
+  url('fonts/icomoon.woff?k7zmyc') format('woff'),
+  url('fonts/icomoon.svg?k7zmyc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="vil-icon-"], [class*=" vil-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrap {
+  position: relative;
+}
+
+.wec-menu-dropdown {
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    padding: 5px 10px;
+  }
+
+  li:hover {
+    background-color: #0073aa;
+    a {
+      color: white;
+    }
+  }
+  display: none;
+  //opacity: 0;
+  z-index: 20;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 12.5rem;
+  box-shadow: 2px 2px 10px #b8b8b8;
+}
+
+.wec-hover-dropdown-menu:hover .wec-menu-dropdown {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .wec-menu-dropdown {
+    width: 100%;
+    left: 0;
+    top: 2rem;
+  }
+}
+
+.vil-icon-play3:before {
+  content: "\ea1c";
+}
+
+i.vil-icon-play3 {
+  margin-left: 5px;
+}
+
+#the-list td{
+  vertical-align: middle;
+}

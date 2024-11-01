@@ -1,0 +1,339 @@
+
+.wp-block {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.wec-woo-email-customizer {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.wec-woo-email-customizer .editor-block-list__block-edit {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.editor-block-list__layout > .editor-block-list__block > .editor-block-list__block-edit {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+%h2 {
+  font-size: inherit !important;
+  font-weight: bold !important;
+  line-height: 2;
+  margin: 0 0 5px;
+  color: inherit;
+}
+
+h2:before, .editor-post-title__block:before {
+  content: unset !important;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 !important;
+
+  th, tr, td {
+    //background-color: inherit !important;
+    color: inherit !important;
+    vertical-align: middle !important;
+    text-align: inherit;
+    //padding: 10px !important;
+  }
+}
+
+.components-button-group {
+  display: flex;
+  background-color: rgb(224, 224, 224);
+
+  .wp-block-wec-content {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.wp-block-wec-content-footer {
+  a {
+    text-decoration: unset;
+  }
+}
+
+.wec-socials {
+  opacity: 0.5;
+}
+
+.wp-block-wec-text-btn-label {
+  .markup-btn {
+    text-align: right;
+  }
+}
+
+.wp-block-wec-text-markup {
+  width: 100%;
+  font-size: 13px !important;
+}
+
+.editor-post-title {
+  margin-bottom: 50px;
+}
+
+.select2.select2-container {
+  margin-top: 7px;
+  //border: 1px solid #e2e4e7 !important;
+}
+
+.select2-search__field {
+  height: 25px;
+  margin-bottom: 5px;
+  width: 100% !important;
+}
+
+.meta-box-taxonomy-radio {
+  height: 180px;
+  overflow-y: scroll;
+}
+
+.editor-post-preview {
+  display: none !important;
+}
+
+.select2-selection__rendered {
+  vertical-align: middle !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #aaa;
+}
+
+.select2 li {
+  margin-bottom: unset !important;
+}
+
+.editor-styles-wrapper img {
+  display: unset !important;
+}
+
+.vi-ui.slider.checkbox input:checked ~ .box:before, .vi-ui.slider.checkbox input:checked ~ label:before {
+  background-color: #1e8cbe !important;
+}
+
+.editor-post-permalink, .edit-post-post-status, .editor-block-inspector__advanced, .edit-post-post-status + .components-panel__body {
+  display: none;
+}
+
+.components-external-link.edit-post-post-link__link, .post-publish-panel__postpublish-post-address, .post-publish-panel__postpublish-buttons, .post-publish-panel__postpublish-subheader {
+  display: none;
+}
+
+.wp-block-wec-products {
+  del {
+    font-size: small;
+    color: #afafaf;
+  }
+
+  ins {
+    text-decoration: none;
+  }
+
+  tr {
+    vertical-align: top;
+  }
+
+  td {
+    padding: unset !important;
+  }
+}
+
+.select2-selection--single {
+  height: fit-content !important;
+  border: 1px solid #aaa !important;
+}
+
+.select2-selection__rendered {
+  margin: 3px 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 10% !important;
+}
+
+.block-list-appender {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  .editor-inserter {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+.components-color-palette, .components-toolbar {
+  margin-top: 5px;
+}
+
+.edit-post-sidebar h3 {
+  margin: 5px 0;
+}
+
+.wec-order-detail-style {
+  border-bottom: 1px solid #ddd;
+}
+
+.wec-border-style .components-color-palette__clear {
+  //display: none;
+}
+
+.wec-email-note {
+  width: 100%;
+}
+
+.wec-p-cats-ordering {
+  margin-top: 10px;
+}
+
+#wec-email-rules {
+  //label {
+  //  font-weight: 500;
+  //}
+  .wec-email-rules {
+    margin: 10px 0;
+  }
+}
+
+.editor-block-list__block[data-type="wec/woo-email-customizer"] {
+  margin-bottom: 70px;
+}
+
+.wec-woo-email-customizer-columns > .editor-inner-blocks > .editor-block-list__layout {
+  display: flex;
+}
+
+@media (min-width: 600px) {
+  .wec-woo-email-customizer-columns > .editor-inner-blocks > .editor-block-list__layout {
+    flex-wrap: nowrap;
+  }
+}
+
+.wec-woo-email-customizer-columns > .editor-inner-blocks > .editor-block-list__layout > [data-type="wec/column"] {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  //padding-left: 0;
+  //padding-right: 0;
+  //margin-left: -14px;
+  //margin-right: -14px;
+  //min-width: 0;
+  //word-break: break-word;
+  //overflow-wrap: break-word;
+  flex-basis: 100%;
+  .wec-woo-email-customizer-column > .editor-inner-blocks > .editor-block-list__layout textarea.editor-default-block-appender__content {
+    margin: 0;
+  }
+
+}
+
+.components-button.is-link {
+  display: none;
+}
+
+.wec-p-cats-ordering-number {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px !important;
+  height: 32px !important;
+}
+
+.wec-tooltip {
+  position: absolute;
+  top: -65px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 100;
+  display: none;
+  //opacity: 0;
+}
+
+.wec-tooltip-country-hover:hover .wec-tooltip-country, .wec-tooltip-category-hover:hover .wec-tooltip-category, .wec-tooltip-priority-hover:hover .wec-tooltip-priority {
+  display: block;
+}
+
+.wec-tooltip-country-hover, .wec-tooltip-category-hover, .wec-tooltip-priority-hover {
+  position: relative;
+}
+
+.wec-background-control {
+  display: flex;
+  .wec-background-control-label {
+    flex-grow: 1;
+  }
+}
+
+.editor-rich-text__tinymce.mce-content-body {
+  z-index: 9999;
+  line-height: inherit !important;
+  a {
+    color: inherit !important
+  }
+
+}
+
+.block-list-appender {
+  z-index: 200 !important;
+}
+
+.wec-address-align-top {
+  vertical-align: top !important;
+}
+
+.wceb-block-header {
+  a {
+    text-decoration: unset;
+  }
+}
+
+.wec-panel-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.wec-upload-logo-btn {
+
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: unset;
+  background-color: rgb(34, 34, 34);
+  color: cyan;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.wec-change-template-btn {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.wec-email-address {
+  margin-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  font-size: 13px;
+  padding: 6px 8px;
+  box-shadow: 0 0 0 transparent !important;
+  transition: box-shadow .1s linear;
+  border-radius: 4px;
+  border: 1px solid #8d96a0;
+  width: 300px;
+}
+
+.wec-loading-icon {
+  display: none;
+}
